@@ -1,0 +1,17 @@
+selection sort, theta n2
+
+bubble sort, O n2 Omega n
+
+or merge sort n log n
+
+sort 1 bubble
+    random50000 8.236
+    sorted50000 1.053
+
+sort 2 merge sort
+    random50000 0.942
+    sorted50000 1.247
+
+sort 3 selection
+    random50000 3.757
+    sorted50000 3.741

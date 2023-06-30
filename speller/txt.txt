@@ -1,0 +1,9 @@
+hash
+load
+size number of words
+
+
+precitam kazde slovo
+    size++
+    zahasujem ho
+    zapisem do table
