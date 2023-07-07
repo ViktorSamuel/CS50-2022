@@ -1,11 +1,10 @@
-#include <cs50.h>
 #include <stdio.h>
 
-int collatz(int n);
+int collatz(int n); // collatz conjecture
 
 int main(void)
 {
-    printf("%d\n", collatz(5));
+    printf("%d\n", collatz(23));
 }
 
 int collatz(int n){
