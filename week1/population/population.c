@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// prompt for user input until size is not bigger than 8
+// prompt for user input until value is not bigger than min 
 int get_int_input(char *s, int min)
 {
     int n = 0;
