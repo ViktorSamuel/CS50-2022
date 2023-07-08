@@ -1,4 +1,3 @@
-#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
@@ -10,7 +9,8 @@ int main(void)
     // insert positive number
     do
     {
-        num = get_long("Number: ");
+        printf("Number: ");
+        scanf("%ld", &num);
     }
     while (num < 0);
 

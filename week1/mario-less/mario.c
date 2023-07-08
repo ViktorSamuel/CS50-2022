@@ -1,4 +1,3 @@
-#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
@@ -7,7 +6,8 @@ int main(void)
     // load size
     do
     {
-        size = get_int("Size: ");
+        printf("Size: ");
+        scanf("%d", &size);
     }
     while (size < 1 || size > 8);
 

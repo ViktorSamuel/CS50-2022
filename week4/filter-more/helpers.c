@@ -25,10 +25,10 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width])
 // Reflect image horizontally
 void reflect(int height, int width, RGBTRIPLE image[height][width])
 {
+    float n = floor((width - 1) / 2.0);
+    
     for (int h = 0; h < height; h++)
     {
-        float n = floor((width - 1) / 2.0);
-
         for (int w = 0; w <= n; w++)
         {
             // load left side

@@ -33,7 +33,6 @@ void add_pairs(void);
 void sort_pairs(void);
 void lock_pairs(void);
 void print_winner(void);
-//bool make_cycle(int winner, loser);
 bool makes_circle(int cycle_start, int loser);
 
 int main(int argc, string argv[])
@@ -218,8 +217,6 @@ void lock_pairs(void)
 // Print the winner of the election
 void print_winner(void)
 {
-
-
     int num = 0;
     // TODO
     for (int i = 0; i < candidate_count; i++)

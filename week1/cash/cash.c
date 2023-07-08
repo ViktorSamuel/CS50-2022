@@ -1,4 +1,3 @@
-#include <cs50.h>
 #include <stdio.h>
 
 int get_cents(void); // num of cents
@@ -37,11 +36,12 @@ int main(void)
 
 int get_cents(void)
 {
-    // TODO
+    // number of cents
     int numberOfCents = 0;
     do
     {
-        numberOfCents = get_int("numberOfCents: ");
+        printf("How many cents are owed? ");
+        scanf("%i", &numberOfCents);
     }
     while (numberOfCents < 0);
 
@@ -50,24 +50,24 @@ int get_cents(void)
 
 int calculate_quarters(int cents)
 {
-    // TODO
+    // value of quarter
     return cents / 25;
 }
 
 int calculate_dimes(int cents)
 {
-    // TODO
+    // value of dimes
     return cents / 10;
 }
 
 int calculate_nickels(int cents)
 {
-    // TODO
+    // value of nickels
     return cents / 5;
 }
 
 int calculate_pennies(int cents)
 {
-    // TODO
+    // value of pennies
     return cents;
 }
