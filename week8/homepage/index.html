@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tapetové štúdio ÚWT</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body class="container-fluid">
+
+    <div class="row abc">
+        <header>
+            <h1>Wallpaper studio ÚWT</h1>
+        </header>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-2">
+            <nav class="navbar navbar-expand justify-content-xl-center">
+                <ul class="navbar-nav flex-xl-column">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home page</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Wallpapers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Wall murals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Order</a></li>
+                </ul>
+            </nav>
+            <div class="banner-img">
+                <div>
+                    <img src="./img/banner-vzorky.jpg" width="180" height="115" alt="banner-vzorky">
+                    <img src="./img/banner-doprava.jpg" width="180" height="115" alt="banner-doprava">
+                    <img src="./img/banner-lepenie.jpg" width="180" height="115" alt="banner-lepenie">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-xl-7">
+            <section>
+                <h1>Our offer</h1>
+                <p>Note: All wallpapers are packed in a roll of 0.53x10.05 m</p>
+
+                <figure>
+                    <img src="./img/R36878-1.jpg" alt="Alternate Text" />
+                    <figcaption id="p0">AS Creation Emotion Graphic - R36878-1</figcaption>
+                    <p><em id="c0">22 &euro;</em></p>
+                    <div>
+                        <button onclick="remove(0)" class="btn btn-danger">-1</button>
+                        <button onclick="add(0)" class="btn btn-success">+1</button>
+                    </div>
+                </figure>
+
+                <figure>
+                    <img src="./img/R36523-2.jpg" alt="Alternate Text" />
+                    <figcaption id="p1">AS Creation Esprit 14 - R36523-2</figcaption>
+                    <p><em id="c1">22.5 &euro;</em></p>
+                    <div>
+                        <button onclick="remove(1)" class="btn btn-danger">-1</button>
+                        <button onclick="add(1)" class="btn btn-success">+1</button>
+                    </div>
+                </figure>
+
+
+                <figure>
+                    <img src="./img/R36674-1.jpg" alt="Alternate Text" />
+                    <figcaption id="p2">AS Creation Esprit 14 - R36674-1</figcaption>
+                    <p><em id="c2">20.5 &euro;</em></p>
+                    <div>
+                        <button onclick="remove(2)" class="btn btn-danger">-1</button>
+                        <button onclick="add(2)" class="btn btn-success">+1</button>
+                    </div>
+                </figure>
+
+                <figure>
+                    <img src="./img/R36678-1.jpg" alt="Alternate Text" />
+                    <figcaption id="p3">AS Creation Esprit 14 - R36678-1</figcaption>
+                    <p><em id="c3">20.5 &euro;</em></p>
+                    <div>
+                        <button onclick="remove(3)" class="btn btn-danger">-1</button>
+                        <button onclick="add(3)" class="btn btn-success">+1</button>
+                    </div>
+                </figure>
+
+                <figure>
+                    <img src="./img/R36205-1.jpg" alt="Alternate Text" />
+                    <figcaption id="p4">AS Creation Neue Bude 2.0 - R36205-1</figcaption>
+                    <p><em id="c4">22.76 &euro;</em></p>
+                    <div>
+                        <button onclick="remove(4)" class="btn btn-danger">-1</button>
+                        <button onclick="add(4)" class="btn btn-success">+1</button>
+                    </div>
+                </figure>
+
+                <figure>
+                    <img src="./img/939736RA.jpg" alt="Alternate Text" />
+                    <figcaption id="p5">Rasch Factory 3 - 939736RA</figcaption>
+                    <p><em id="c5">24.97 &euro;</em></p>
+                    <div>
+                        <button onclick="remove(5)" class="btn btn-danger">-1</button>
+                        <button onclick="add(5)" class="btn btn-success">+1</button>
+                    </div>
+                </figure>
+
+                <figure>
+                    <img src="./img/614947RA.jpg" alt="Alternate Text" />
+                    <figcaption id="p6">Rasch Open Space - 614947RA</figcaption>
+                    <p><em id="c6">22.75 &euro;</em></p>
+                    <div>
+                        <button onclick="remove(6)" class="btn btn-danger">-1</button>
+                        <button onclick="add(6)" class="btn btn-success">+1</button>
+                    </div>
+                </figure>
+
+                <figure>
+                    <img src="./img/808803RA.jpg" alt="Alternate Text" />
+                    <figcaption id="p7">Rasch Tapetenwechsel - 808803RA</figcaption>
+                    <p><em id="c7">16.98 &euro;</em></p>
+                    <div>
+                        <button onclick="remove(7)" class="btn btn-danger">-1</button>
+                        <button onclick="add(7)" class="btn btn-success">+1</button>
+                    </div>
+                </figure>
+
+                <figure>
+                    <img src="./img/808926RA.jpg" alt="Alternate Text" />
+                    <figcaption id="p8">Rasch Tapetenwechsel - 808926RA</figcaption>
+                    <p><em id="c8">17.45 &euro;</em></p>
+                    <div>
+                        <button onclick="remove(8)" class="btn btn-danger">-1</button>
+                        <button onclick="add(8)" class="btn btn-success">+1</button>
+                    </div>
+                </figure>
+
+            </section>
+        </div>
+
+        <div class="col-xl-3">
+            <div class="kos">
+                <p><strong>Shopping basket</strong></p>
+                <div id="kosik">
+                    empty
+                </div>
+                <button onclick="del()" class="btn btn-danger">remove everything</button>
+            </div>
+        </div>
+    </div>
+	<footer>
+		&copy; Wallpaper studio Viktor Samuel Podhradsky (SQANZ), Mlynská dolina, 842 48 Bratislava<br>
+		Kontakt: tapety@uwt.sk, tel: +421 2 123 456
+	</footer>
+
+    <script>
+        var p = [];
+        var c = [];
+        var m = [];
+
+        for (var i = 0; i < 9; i++)
+        {
+            var produkt = 'p' + i;
+            var cena = 'c' + i;
+            p[i] = document.getElementById(produkt).innerHTML;
+            c[i] = document.getElementById(cena).innerHTML;
+            m[i] = 0;
+        }
+
+        function nakup()
+        {
+            var sum = 0;
+            document.getElementById("kosik").innerHTML = '';
+            for (var i = 0; i < 9; i++) {
+                if (m[i] > 0) {
+                    document.getElementById("kosik").innerHTML += "<p>" + p[i] + " (" + m[i] + " ks)</p>";
+                    sum += parseFloat(c[i]) * parseFloat(m[i]);
+                }
+            }
+            document.getElementById("kosik").innerHTML += "<p>Price " + sum.toFixed(2) + "&euro;</p>"
+        }
+
+        function add(tovar)
+        {
+            m[tovar]++;
+            nakup();
+        }
+
+        function remove(tovar)
+        {
+            if(m[tovar]>0) m[tovar]--;
+            nakup();
+
+            var n = 0;
+            for(var i = 0; i < 9; i++)
+            {
+                if (m[i] == 0) n++;
+            }
+            if (n == 9) document.getElementById("kosik").innerHTML = 'is empty'
+        }
+
+        function del() {
+            for (var i = 0; i < 9; i++) {
+                m[i] = 0;
+            }
+            document.getElementById("kosik").innerHTML = 'is empty'
+        }
+    </script>
+
+</body>
+</html>

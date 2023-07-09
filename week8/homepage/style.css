@@ -1,0 +1,72 @@
+footer {
+    border-top: solid 5px rgb(131, 21, 34);
+}
+
+body {
+    background-image: url(./img/pozadie.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 1rem 3rem !important;
+}
+
+header {
+    border-bottom: solid 5px rgb(131, 21, 34);
+    padding-left: 0 !important;
+}
+
+nav {
+    background-color: rgb(255, 255, 204);
+    padding: 0.5rem !important;
+}
+
+nav ul li a{
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(209, 209, 209) !important;
+    background: rgb(131, 21, 34);
+}
+
+
+section{
+    background-color: white;
+    color: black;
+}
+
+figure {
+    display: inline-block;
+    border: 1px solid #d4d4d4;
+    text-align: center;
+    margin: 0.25rem; 
+    padding: 0.25rem;
+    width: 180px;
+}
+
+figure img{
+    width: 150px;
+    height: 150px;
+}
+
+.kos {
+    background-color: rgb(255, 255, 204);
+    color: black;
+    text-align: right;
+    padding: 0.25rem;
+}
+
+.abc{
+    padding: 0 12px;
+}
+
+.banner-img{
+    text-align:center;
+    margin: 1rem 0;
+}
+
+p em{
+    font-weight: bold;
+    color: red;
+    font-size: 1.5rem;
+}
