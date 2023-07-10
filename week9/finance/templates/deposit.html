@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Deposit
+{% endblock %}
+
+{% block main %}
+    <h1>Deposit</h1>
+    <p>Current capital: {{ capital }}</p>
+    <form action="/deposit" method="post">
+        <div class="form-group">
+            <label for="amount">Amount</label>
+            <input type="number" class="form-control mx-auto w-auto" id="amount" name="amount" placeholder="Amount">
+        </div>
+        <button type="submit" class="btn btn-primary">Deposit</button>
+    </form>
+{% endblock %}
