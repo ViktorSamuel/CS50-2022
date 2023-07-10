@@ -14,4 +14,4 @@ This repository contains the problem sets and labs from the CS50 course, organiz
 - [Week 8](/week8): HTML, CSS, JavaScript
 - [Week 9](/week9): Flask
 
-Each week's directory contains the problem sets and labs in separate folders. Instruction for each practice problem can be found on the [CS50 website](https://cs50.harvard.edu/x/2023/).
+Each week's directory contains the problem sets and labs in separate folders. Instruction for each practice problem can be found on the [CS50 website](https://cs50.harvard.edu/x/2023/){:target="_blank"}.
